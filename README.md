@@ -6,6 +6,12 @@ Custom aaPanel docker image
 <p>Maintained by: <a href="https://github.com/ngotuananh101">ngotuananh2101</a></p>
 <p><code>latest</code> tag means that the panel is installed but the base lib is not installed, and the installation of the first software will be slower</p>
 
+<h1>⚠️ Experimental ⚠️</h1>
+<h4>You can directly build and run the application with bash script.</h4>
+<p>STEP 1: Clone this repo <code>git clone https://github.com/ngotuananh101/aaPanel.git</code></p>
+<p>STEP 2: Run docker <code>docker compose up -d</code></p>
+
+
 <h1>How to use</h1>
 <p><code>docker run -d -p 7800:7800 -p 2222:22 -p 2121:21 -p 443:443 -p 80:80 -p 888:888  jan21st/aapanel:latest</code></p>
 <p>Now you can access aaPanel at <a href="http://yourip:7800">http://yourip:7800</a> from your host system.</p>
