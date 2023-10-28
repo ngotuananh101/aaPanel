@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  aapanel:
+    build: .
+    container_name: aapanel
+    ports: 
+      - 7800:7800
+      - 2121:21
+      - 2222:22
+      - 443:443
+      - 80:80
+      - 888:888
+      - 3306:3306
+      - 6379:6379
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    env_file:
+      - ./.env
