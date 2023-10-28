@@ -20,7 +20,7 @@ Custom aaPanel docker image
 <p>Default password:<code>aapanel123</code></p>
 <p>Default root password:<code>root</code></p>
 
-<h1>How to custom above value</h1>
+<h2>How to custom above value</h2>
 <p>Set value in your <code>ENV</code> file to custom</p>
 <p>Tnstallation entry<code>PANEL_PATH</code></p>
 <p>Username:<code>PANEL_USER</code></p>
