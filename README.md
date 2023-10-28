@@ -20,18 +20,18 @@ Custom aaPanel docker image
 <p>Default password:<code>aapanel123</code></p>
 <p>Default root password:<code>root</code></p>
 
-<h2>How to custom above value</h2>
+<h1>How to custom above value</h1>
 <p>Set value in your <code>ENV</code> file to custom</p>
 <p>Tnstallation entry<code>PANEL_PATH</code></p>
 <p>Username:<code>PANEL_USER</code></p>
 <p>Password:<code>PANEL_PASS</code></p>
 <p>Root password:<code>LINUX_ROOT_PASS</code></p>
 
-<h4>Port usage analysis</h4>
+<h2>Port usage analysis</h2>
 <p>Control Panel: <code>7800</code></p>
 <p>phpMyAdmin: <code>888</code></p>
 
-<h4>Dir usage analysis</h4>
+<h2>Dir usage analysis</h2>
 <p>Website data: <code>/www/wwwroot</code></p>
 <p>Mysql data: <code>/www/server/data</code></p>
 <p>Vhost file: <code>/www/server/panel/vhost</code></p>
